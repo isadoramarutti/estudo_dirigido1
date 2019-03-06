@@ -1,4 +1,8 @@
+ <?php
 
-<?php 
+print "quantos metros você deseja converter? ";
+$metros = (float) fgets (STDIN);
 
-  print "terminar o exercicio"
+$milimetros = $metros*1000;
+
+print "$metros m tem $milimetros mm";
