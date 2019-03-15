@@ -10,4 +10,4 @@ $desconto_final = $desconto/100;
 
 $preco_final = $preco_inicial - ($desconto_final*$preco_inicial);
 
-print "O valor final do produto é de $preco_final";
+print "O valor final do produto é de $preco_final reais";
